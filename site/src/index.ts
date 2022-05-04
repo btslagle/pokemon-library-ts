@@ -32,7 +32,7 @@ function addPokemonImage(pokemon: Pokemon) {
         div.innerHTML = `
         <figure>
         <img src ="${pokemon.sprites.front_default}"${pokemon.name}" />
-        <figcaption><a href="pokemon.html?pokemon=${pokemon.name}">${pokemon.name}</a></figcaption> 
+        <figcaption><a href="pokedetail.html?pokemon=${pokemon.name}">${pokemon.name}</a></figcaption> 
         </figure>
         `
 

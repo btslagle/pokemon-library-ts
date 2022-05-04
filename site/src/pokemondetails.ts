@@ -1,8 +1,8 @@
-import { SignatureHelpRetriggeredReason } from "typescript";
+import { createModuleResolutionCache, SignatureHelpRetriggeredReason } from "typescript";
 
 const $pokemon = document.querySelector<HTMLDivElement>("#pokemon-details");
 const $spinner = document.querySelector<HTMLImageElement>(".spinner");
-const ul = document.querySelector<HTMLUListElement>("ul");
+const ul = document.querySelector<HTMLUListElement>(".abilities");
 
 type Pokemon = {
   name: string;
@@ -15,11 +15,18 @@ type Pokemon = {
 };
 
 type FlavorText = {
+  flavor_text_entries: {
+    flavor_text: string;
+    language: {
+      url: string;
+    }
+  }
   language: {
     name: string;
+    url: string;
   };
   flavor_text: string;
-  url:string;
+  url: string;
 };
 
 type Ability = {
@@ -37,7 +44,7 @@ type Result = {
 };
 
 type AbilityResponse = {
-    flavor_text_entries: FlavorText[];
+  flavor_text_entries: FlavorText[];
 
 }
 function addPokemonImage(pokemon: Pokemon) {
@@ -60,9 +67,9 @@ function addPokemonAbilities(pokemon: Pokemon) {
         flavor_text_entry.language.name === "en"
     );
     li.innerHTML = `
-        <span class="ability-name">${pokemon.name}</span>
+        <span class="ability-name">${pokemon.name} ${pokemon.language}</span>
         <br>
-        <span class="ability-short-description">${flavor_text?.flavor_text ?? ""}</span>
+        <span class="ability-short-description">${flavor_text?.flavor_text ?? ""} ${pokemon.flavor_text_entries}</span>
         `;
     ul.append(li);
   }
@@ -74,6 +81,7 @@ function parsedJson(response: Response) {
 
 const queryString = new URLSearchParams(window.location.search);
 fetch(`https://pokeapi.co/api/v2/pokemon/${queryString.get("pokemon")}`)
+
   .then(parsedJson)
   .then((response) => {
     addPokemonImage(response);
@@ -85,14 +93,18 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${queryString.get("pokemon")}`)
     return Promise.all<AbilityResponse[]>(abilitiesRequests);
   })
   .then((parsedResponses) => {
+    console.log(parsedResponses)
     const urls = parsedResponses.flatMap(parsedResponse => parsedResponse.flavor_text_entries
-        .map(flavor_text_entry => flavor_text_entry.url))
+      .map(flavor_text_entry => flavor_text_entry.language.url))
+    console.log(urls)
     const fetches = urls.map((url: string) =>
       fetch(url).then((response) => response.json())
     );
+    console.log(fetches)
     return Promise.all<Pokemon>(fetches)
   })
   .then((responses) => {
+    console.log(responses)
     if ($spinner) {
       $spinner.classList.add("hidden");
     }

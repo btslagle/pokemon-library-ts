@@ -1,17 +1,21 @@
-7813
+7822
 89/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.4a5519d3.css.map1651684921961718300 0
 84/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.975ef6c8.js1651684709361718300 0
 85/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.4a5519d3.css1651684921961718300 0
 88/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.975ef6c8.js.map1651684709371718300 0
 75/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.js1651684505111718300 0
-66/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist1651684921961718300 1
+66/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist1651694089981718300 1
 69/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/test.js1651681469041718300 0
 74/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/package.json1651684166051718300 0
-74/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.ts1651683336271718300 0
+74/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.ts1651694093301718300 0
 73/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/app.css1651684921611718300 0
-83/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/pokemondetails.ts1651681469041718300 0
-74/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.js1651684334981718300 0
-81/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/pokedetail.html1651681469041718300 0
+83/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/pokemondetails.ts1651696070371718300 0
+81/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist/index.html1651694218221718300 0
+88/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist/index.b3ff9ce1.js1651694218061718300 0
+93/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist/index.ea0c56c0.css.map1651694217741718300 0
+74/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.js1651694189261718300 0
+83/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/pokemondetails.js1651696123981718300 0
+81/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/pokedetail.html1651694591781718300 0
 97/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/resolve-from/readme.md1651684053441718300 0
 96/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/resolve-from/index.js1651684052871718300 0
 100/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/resolve-from/package.json1651684052311718300 0
@@ -614,6 +618,7 @@
 90/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/execa/readme.md1651684055201718300 0
 94/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/execa/lib/stream.js1651684054831718300 0
 92/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/execa/lib/kill.js1651684053931718300 0
+92/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist/index.b3ff9ce1.js.map1651694218081718300 0
 95/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/execa/lib/command.js1651684052961718300 0
 95/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/execa/lib/promise.js1651684054471718300 0
 88/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/string-length1651684053141718300 1
@@ -1086,6 +1091,7 @@
 114/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/caniuse-lite/data/features/css-fixed.js1651684061351718300 0
 108/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/ts-jest/dist/cli/config/init.d.ts1651684060301718300 0
 111/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/ts-jest/dist/cli/config/migrate.d.ts1651684060381718300 0
+70/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist1651694218241718300 1
 114/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@types/jest/node_modules/diff-sequences1651684054901718300 1
 105/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/write-file-atomic/package.json1651684052921718300 0
 106/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/ts-jest/dist/cli/config/init.js1651684057931718300 0
@@ -1282,6 +1288,7 @@
 112/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/electron-to-chromium/full-versions.js1651684054491718300 0
 107/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/jest-util/build/isInteractive.js1651684055551718300 0
 121/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/electron-to-chromium/full-chromium-versions.js1651684053491718300 0
+88/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.b71e74eb.js.map1651694089971718300 0
 105/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/electron-to-chromium/README.md1651684056321718300 0
 126/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/ts-jest/node_modules/semver/internal/identifiers.js1651684056021718300 0
 103/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/electron-to-chromium/LICENSE1651684052391718300 0
@@ -1574,7 +1581,7 @@
 84/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/is-number1651684052951718300 1
 96/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/fb-watchman/README.md1651684052381718300 0
 99/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/fb-watchman/package.json1651684052961718300 0
-76/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.html1651683889961718300 0
+76/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/index.html1651693542071718300 0
 101/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/htmlnano/docs/netlify.toml1651684060621718300 0
 86/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/fb-watchman1651684052631718300 1
 107/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/collect-v8-coverage/CHANGELOG.md1651684053231718300 0
@@ -1633,7 +1640,7 @@
 132/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/loc/lcl/KOR/Targets/TypeScriptCompile.xaml.lcl1651684067491718300 0
 90/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/js-yaml/LICENSE1651684052371718300 0
 133/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/loc/lcl/KOR/Targets/ProjectItemsSchema.xaml.lcl1651684067281718300 0
-77/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.html1651684709341718300 0
+77/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.html1651693561401718300 0
 105/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/loc/lcl/KOR/Targets1651684067801718300 1
 97/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/loc/lcl/KOR1651684067661718300 1
 149/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/loc/lcl/PLK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl1651684067681718300 0
@@ -4488,6 +4495,7 @@
 101/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/picomatch/lib/picomatch.js1651684054201718300 0
 92/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/typescript/lib/cs1651684066501718300 1
 94/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/jest-config/LICENSE1651684052371718300 0
+84/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/dist/index.b71e74eb.js1651694089951718300 0
 120/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/dom-serializer/node_modules/entities/lib/maps1651684055431718300 1
 134/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@babel/types/lib/modifications/prependToMemberExpression.js1651684060731718300 0
 159/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-module-fallback/main.js1651684061151718300 0
@@ -6038,6 +6046,7 @@
 114/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/core/src/ParcelConfig.schema.js1651684061291718300 0
 95/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/walker/lib/walker.js1651684052821718300 0
 109/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/core/src/InternalConfig.js1651684060841718300 0
+89/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src/dist/index.ea0c56c0.css1651694217731718300 0
 86/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/safe-buffer1651684053191718300 1
 100/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/core/package.json1651684062181718300 0
 99/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/watcher/index.js1651684058001718300 0
@@ -6283,7 +6292,7 @@
 126/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/source-map/parcel_sourcemap_wasm/src/lib.rs1651684062031718300 0
 96/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/namer-default1651684053381718300 1
 91/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/tslib/tslib.html1651684052511718300 0
-65/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src1651684650201718300 1
+65/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/src1651694217681718300 1
 109/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/istanbul-reports/lib/lcov/index.js1651684058961718300 0
 126/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/source-map/parcel_sourcemap_wasm/Cargo.toml1651684062081718300 0
 116/home/sibarr15/module-3/TS/pokemon-TS/pokemon-library-ts/site/node_modules/@parcel/transformer-svg/node_modules/.bin1651684072701718300 1

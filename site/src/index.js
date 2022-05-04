@@ -5,7 +5,7 @@ var spinner = document.querySelector(".spinner");
 function addPokemonImage(pokemon) {
     var div = document.createElement("div");
     if (pokemonListing) {
-        div.innerHTML = "\n        <figure>\n        <img src =\"".concat(pokemon.sprites.front_default, "\"").concat(pokemon.name, "\" />\n        <figcaption><a href=\"pokemon.html?pokemon=").concat(pokemon.name, "\">").concat(pokemon.name, "</a></figcaption> \n        </figure>\n        ");
+        div.innerHTML = "\n        <figure>\n        <img src =\"".concat(pokemon.sprites.front_default, "\"").concat(pokemon.name, "\" />\n        <figcaption><a href=\"pokedetail.html?pokemon=").concat(pokemon.name, "\">").concat(pokemon.name, "</a></figcaption> \n        </figure>\n        ");
         pokemonListing.append(div);
     }
 }
