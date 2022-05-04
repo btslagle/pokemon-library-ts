@@ -2,15 +2,17 @@
     "name": "site",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "dev": "parcel",
+        "build": "parcel build"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "dependencies": {
         "jest": "^28.0.3",
+        "parcel": "^2.5.0",
         "typescript": "^4.6.4"
     },
     "devDependencies": {
