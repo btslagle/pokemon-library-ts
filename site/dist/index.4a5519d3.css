@@ -1,0 +1,118 @@
+@import "https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap";
+body {
+  color: #fff;
+  background-color: #00f;
+  border-style: solid;
+  border-color: red;
+  border-top-width: 15px;
+  margin: 0;
+  display: block;
+}
+
+a {
+  color: red;
+  font-family: Alfa Slab One, cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+figure {
+  height: 100%;
+  background-color: #ff0;
+  border-radius: 12%;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+figcaption {
+  color: red;
+  text-transform: capitalize;
+  font-family: Alfa Slab One, cursive;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  bottom: -.01%;
+}
+
+.spinner {
+  width: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1 a {
+  text-align: center;
+  color: red;
+  justify-content: center;
+  margin: 60px;
+  font-size: 55px;
+  font-weight: 300;
+  text-decoration: underline;
+  display: flex;
+}
+
+h2 {
+  color: #ff0;
+  place-content: center;
+  font-family: Alfa Slab One, cursive;
+  font-size: 40px;
+  display: flex;
+}
+
+div {
+  margin: auto, auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+img {
+  width: 200px;
+  padding: 30px;
+}
+
+li {
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-family: Alfa Slab One, cursive;
+}
+
+br {
+  margin-bottom: 8px;
+}
+
+.ability-name {
+  color: red;
+  font-size: 24px;
+}
+
+.ability-short-description {
+  color: #ff0;
+}
+
+#pokemon-details {
+  width: 100%;
+  border-style: solid;
+  border-color: red;
+  border-top-width: 12px;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+#abillities {
+  margin-top: 12px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+/*# sourceMappingURL=index.4a5519d3.css.map */

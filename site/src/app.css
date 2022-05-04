@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+body {
+    display: block;
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    border-top: 15px;
+    border-style: solid;
+    border-color: hsl(0, 100%, 50%);
+    margin: 0;
+}
+
+a {
+    color: hsl(0, 100%, 50%);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+figure {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(60, 100%, 50%);
+    border-radius: 12%;
+    height: 100%;
+}
+
+figcaption {
+    position: absolute;
+    bottom: -.01%;
+    color: hsl(0, 100%, 50%);
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: capitalize;
+}
+
+.spinner {
+    width: 100px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 a {
+    display: flex;
+    text-align: center;
+    font-weight: 300;
+    justify-content: center;
+    margin: 60px;
+    font-size: 55px;
+    color: hsl(0, 100%, 50%);
+    text-decoration: underline;
+}
+
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: hsl(60, 100%, 50%);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: auto, auto;
+}
+
+img {
+    width: 200px;
+    padding: 30px;
+}
+
+li {
+    color: hsl(0, 0%, 100%);
+    text-transform: capitalize;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 35px;
+}
+
+br {
+    margin-bottom: 8px;
+}
+
+.ability-name {
+    color: hsl(0, 100%, 50%);
+    font-size: 24px;
+}
+
+.ability-short-description {
+    color: hsl(60, 100%, 50%);
+}
+
+#pokemon-details {
+    display: flex;
+    flex-direction: row-reverse;
+    border-top: 12px;
+    border-color: hsl(0, 100%, 50%);
+    border-style: solid;
+    width: 100%;
+}
+
+#abillities {
+    margin-top: 12px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 55px;
+}
