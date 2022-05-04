@@ -68,7 +68,7 @@ fetch(url)
 
     type PokemonResponse = {
         data?: {
-          pokemon: Pokemon
+        pokemon: Pokemon
         }
         errors?: { message: string }[]
       }
